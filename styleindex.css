@@ -1,0 +1,24 @@
+.heading{
+   mix-blend-mode: color-burn;
+    text-align: center;
+    margin-top: 18%;
+}
+button{
+    border-radius: 50px;
+    background-color: transparent;
+    color: black;
+    margin-right:10px;
+    padding: 20px 40px;
+    margin-left: 88%;
+    margin-top: 13%;
+}
+body{
+    
+     background-image: url(bc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ui{
+    margin-right: 4%;
+}

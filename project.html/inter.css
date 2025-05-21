@@ -1,0 +1,19 @@
+body{
+ 
+     background-image: url(bc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+button{
+    border-radius: 50px;
+    background-color: transparent;
+    color: black;
+    padding:20px 40px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+img{
+     mix-blend-mode: color-burn;
+    width: 400px;
+}
