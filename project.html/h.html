@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+          .specialties-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .specialties-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .specialties-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .specialty-card {
+    background: white;
+    border-radius: 12px;
+    width: 180px;
+    padding: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .specialty-card img {
+    width: 50px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .specialty-card h3 {
+    font-size: 1rem;
+    color: #003366;
+    margin-bottom: 5px;
+  }
+
+  .specialty-card p {
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+  /* Hover effect */
+  .specialty-card:hover {
+    background: #003366;
+    color: white;
+    transform: translateY(-8px);
+  }
+
+  .specialty-card:hover h3,
+  .specialty-card:hover p {
+    color: white;
+  }
+
+  .specialty-card:hover img {
+    transform: scale(1.1);
+    filter: brightness(0) invert(1);
+  }
+
+    </style>
+</head>
+<body>
+   
+
+<section class="specialties-section">
+  <h2>Our Specialties</h2>
+  <div class="specialties-container">
+    <div class="specialty-card">
+      <img src="primary-care-icon.png" alt="Primary Care">
+      <h3>Primary Care</h3>
+      <p>Get your Primary care quickly</p>
+    </div>
+    <div class="specialty-card">
+      <img src="psychiatry-icon.png" alt="Psychiatry">
+      <h3>Psychiatry</h3>
+      <p>Professional mental health support</p>
+    </div>
+    <div class="specialty-card">
+      <img src="gynecology-icon.png" alt="Gynecology">
+      <h3>Gynecology</h3>
+      <p>Women’s health and wellness</p>
+    </div>
+    <div class="specialty-card">
+      <img src="cardiology-icon.png" alt="Cardiology">
+      <h3>Cardiology</h3>
+      <p>Heart health specialists</p>
+    </div>
+    <div class="specialty-card">
+      <img src="geriatrics-icon.png" alt="Geriatrics">
+      <h3>Geriatrics</h3>
+      <p>Care for older adults</p>
+    </div>
+    <div class="specialty-card">
+      <img src="orthopedics-icon.png" alt="Orthopedics">
+      <h3>Orthopedics</h3>
+      <p>Bone and joint care</p>
+    </div>
+  </div>
+</section>
+
+
+</body>
+<script>
+
+</script>
+</html>
